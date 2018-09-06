@@ -1,0 +1,207 @@
+body {
+    font-family: "Open+Sans", sans-serif;
+    color: #2d3c49;
+}
+
+#logo {
+	padding-top: 10px;
+    height: 90px;
+    width: 90px;
+    margin: 5px 15px;
+    float: left;
+}
+
+#header-container {
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+#top-image {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+	max-height: 100%;
+}
+#top-image-container {
+    border-top: solid 4px #7d97ad;
+    padding-top: 10px;
+	max-width: 100%;
+	max-height: 100%;
+}
+hr {
+	border: none;
+    background-color: #7d97ad;
+    height: 4px;
+	max-width: 90%;
+}
+
+.title {
+    text-align: right;
+    color: #2d3c49;
+    font-size: 35px;
+}
+
+.subtitle {
+    text-align: right;
+    color: #2d3c49;
+}
+
+
+.section {
+    color: #7d97ad;
+    padding: 15px;
+}
+
+.link {
+    color: inherit;
+}
+
+.link:hover,
+.url:active,
+.url:focus {
+    text-decoration: none;
+    color: #7d97ad;
+}
+
+.images {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+	max-height: 100%;
+    box-shadow: 1px 1px 5px 1px #ddd;
+}
+
+.name {
+    text-align: center;
+    color: #2d3c49;
+    padding-top: 10px;
+}
+.description {
+    max-width: 320px;
+    margin: auto;
+    color: #2d3c49;
+	text-align: center;
+}
+
+.fa-linkedin {
+	padding-top: 5px;	
+	font-size: 30px;
+	padding-right: 20px
+}
+.fa-envelope {
+	padding-top: 5px;	
+	font-size: 30px;
+	color: gray;
+	padding-right: 20px;
+}
+.fa-github {
+	padding-top: 5px;	
+	font-size: 30px;
+	color: black;
+}
+
+/* Media Queries for responsive design with 2 breakpoints*/
+
+/* first breakpoint */
+@media screen and (max-width: 450px) {
+    .responsive {
+        width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	#top-image {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+	height: 200px;
+	}
+	.title {
+		font-size: 25px;
+		padding-right: 20px;
+	}
+	.subtitle{
+		font-size: 15px;
+		padding-right: 20px;
+	}
+	.section{
+		padding-left: 20px;
+		font-size: 20px;
+
+	}
+	.url{
+		font-size: 20px;
+	}
+	.logo {
+		padding-top: 5px;
+		max-height: 50%;
+		max-width: 50%;
+	}
+	.link {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.description {
+		font-size: 15px;
+		text-align: center;
+	}
+	.name {
+		font-size: 20px;
+	}
+	#logo {
+	padding-top: 10px;
+    height: 80px;
+    width: 60px;
+    margin: 5px 15px;
+    float: left;
+	}
+}
+/* second breakpoint */
+@media screen and (min-width: 450px) and (max-width: 900px) {
+    .responsive {
+        width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	#top-image {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+	height: 300px;
+	}
+	.title {
+		font-size: 30px;
+		margin-right: auto;
+		padding-right: 20px;
+	}
+	.subtitle {
+		font-size: 20px;
+		margin-right: auto;
+		padding-right: 20px;
+	}
+	.contact {
+		font-size: 12px;
+	}
+	.section {
+		padding-left: 20px;
+		font-size: 25px;
+	}
+	.name {
+		font-size: 40px;
+	}
+	.description {
+		font-size: 15px;
+		text-align: center;
+	}
+	
+}
+/* third breakpoint */
+
+@media screen and (min-width: 901px){
+.title {
+		padding-right: 20px;
+	}
+	.subtitle {
+		margin-right: auto;
+		padding-right: 20px;
+	}
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <title>My Portfolio</title>
+
+	<!-- bootstap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+	<!-- jquery for bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- bootstrap javascript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- font awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+  </head>
+  <body>
+   <!-- Bootstrap elements wrapped in a container class -->
+    <div class="container">
+      <!--Title Header-->
+      <header class="row">
+        <div class="col-sm-2 logo">
+          <!-- <img id="logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="logo"> -->
+		  <img id="logo" src="img/udacity-logo.png" alt="logo">
+
+        </div>
+        <div class="col responsive">
+          <div id="header-container">
+            <h3 class="title">SOUMYAJIT CHAKRABORTY</h3>
+            <h4 class="subtitle">FRONT-END NINJA</h4>
+          </div>
+        </div>
+      </header>
+      <!--image -->
+        <div class="col responsive top-image">
+          <figure id="top-image-container">
+            <img src="img/main.jpg" srcset="img/main_compressed.jpg 500w, img/main.jpg 2000w" id="top-image" alt="Main Image" sizes="(min-width: 500px) 500vw, 1000vw">
+          </figure>
+        </div>
+
+      <!-- bootstrap class for 3 columns / projects to share the display viewport of 12 equally -->
+      <section class="row">
+		<!-- middle text -->
+	    <h2 class="section">Featured Work</h2>
+	   <!-- Udacity project1-->
+	  <article class="responsive col-12 col-sm-12 col-md-6 col-lg-4">
+          <a class="link" href="https://github.com/sc272t" target="_blank">
+            <img class="images" src="img/movies.png" height="300" srcset="img/movies_compressed.jpg 500w, img/movies.png 2000w" sizes="(min-width: 650px) 50vw, 100vw" alt="Movie Trailer website" >
+          </a>
+          <h2 class="name">
+            <a class="link" href="https://github.com/sc272t" target="_blank">MOVIE TRAILERS</a>
+          </h2>
+          <div class="description">
+            <p>Fresh Tomatoes Movie Trailers. A website to generate movie information and launch movie trailers on youtube.</p>
+          </div>
+        </article>
+		<!-- Udacity project2-->
+        <article class="responsive col-12 col-sm-12 col-md-6 col-lg-4">
+          <a class="link" href="https://github.com/sc272t" target="_blank">
+            <img class="images" alt="Catalog" src="img/catalog2.jpg" height="300">
+          </a>
+          <h2 class="name">
+            <a class="link" href="https://github.com/sc272t" target="_blank">ITEM CATALOG</a>
+          </h2>
+          <div class="description">
+            <p>Item Catalog Website. A web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. <strong>Work In Progress!</strong><a href="https://github.com/sc272t"></a></p>
+          </div>
+        </article>
+        <!-- Udacity project3-->
+        <article class="responsive col-12 col-sm-12 col-md-6 col-lg-4">
+          <a class="link" href="https://github.com/sc272t" target="_blank">
+            <img class="images" alt="Neighborhood Map" src="img/neighborhood.jpg" srcset="img/neighborhood_compressed.jpg 500w, img/neighborhood.jpg 2000w" height="300" sizes="(min-width: 650px) 50vw, 100vw">
+          </a>
+          <h2 class="name">
+            <a class="link" href="https://github.com/sc272t" target="_blank">NEIGHBORHOOD MAP</a>
+          </h2>
+          <div class="description">
+            <p>Neighborhood Map. A single-page application featuring a map of a neighborhood with map markers to identify popular locations or places. <strong> Coming Soon! </strong><a href="https://github.com/sc272t" target="_blank"></a></p>
+          </div>
+        </article>
+      </section>
+    </div>
+	<hr>
+  <!-- footer -->
+  <footer class="text-center footer">
+    <div class="row">	
+        <div class="col-md-12">
+			<a class="contact" href="https://www.linkedin.com/in/jit-chakraborty-a82a4a155/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+			<a class="contact" href="mailto:sc299@njit.edu" target="_blank"> <i class="fas fa-envelope"></i></a>
+			<a class="contact" href="https://github.com/sc272t" target="blank"><i class="fab fa-github"></i></a>
+		</div>
+    </div>
+  </footer>
+  <br>
+  </body>
+</html>
